@@ -6,14 +6,22 @@ import java.io.IOException;
 
 public class ObjectSerialDemo2Test {
     @Test
-    public void saveObjectTest() throws IOException {
-        // ObjectSerialDemo2.saveObject("src/test/resources/serial/foo.txt");
-        ObjectSerialDemo2.saveObject("src/test/resources/serial/bar.txt");
+    public void saveFooTest() throws IOException {
+        ObjectSerialDemo2.saveFoo("src/test/resources/serial/foo.txt");
     }
 
     @Test
-    public void readObjectTest() throws IOException, ClassNotFoundException {
-        // ObjectSerialDemo2.readObject("src/test/resources/serial/foo.txt");
-        ObjectSerialDemo2.readObject("src/test/resources/serial/bar.txt");
+    public void readFooTest() throws IOException, ClassNotFoundException {
+        ObjectSerialDemo2.readFoo("src/test/resources/serial/foo.txt");
+    }
+
+    @Test
+    public void saveBarTest() throws IOException {
+        ObjectSerialDemo2.saveBar("src/test/resources/serial/bar.txt");
+    }
+
+    @Test
+    public void readBarTest() throws IOException, ClassNotFoundException {
+        ObjectSerialDemo2.readBar("src/test/resources/serial/bar.txt");
     }
 }

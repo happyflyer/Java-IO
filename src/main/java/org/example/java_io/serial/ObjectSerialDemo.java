@@ -14,7 +14,6 @@ public class ObjectSerialDemo {
         oos.close();
     }
 
-    @SuppressWarnings("resource")
     static void readObject(String fileName) throws IOException, ClassNotFoundException {
         ObjectInputStream ois = new ObjectInputStream(new FileInputStream(fileName));
         Student stu1 = (Student) ois.readObject();

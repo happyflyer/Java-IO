@@ -1,4 +1,4 @@
-# Java IO
+# [Java IO](https://github.com/happyflyer/Java-IO)
 
 ## 1. 编码问题
 
@@ -304,7 +304,7 @@ public class Student implements Serializable {
 }
 ```
 
-`ArrayList`自定义元素的序列化，只让有效的元素进行序列化，调高序列化的效率。
+`ArrayList` 自定义元素的序列化，只让有效的元素进行序列化，调高序列化的效率。
 
 ### 6.5. 序列化中子父类构造函数问题
 
